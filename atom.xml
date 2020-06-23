@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>一爿阳光</title>
+  <icon>https://www.gravatar.com/avatar/18b3ca8f8e93ed3cfed742fae4221ba3</icon>
+  <subtitle>yipanyangguang</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yipanyangguang.com/"/>
+  <updated>2020-06-23T03:11:01.438Z</updated>
+  <id>https://yipanyangguang.com/</id>
+  
+  <author>
+    <name>张文祥</name>
+    <email>work@zwx.ink</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>:2020-:06-:23-:从大连回家</title>
+    <link href="https://yipanyangguang.com/2020/06/23/2020-06-23-%E4%BB%8E%E5%A4%A7%E8%BF%9E%E5%9B%9E%E5%AE%B6/"/>
+    <id>https://yipanyangguang.com/2020/06/23/2020-06-23-%E4%BB%8E%E5%A4%A7%E8%BF%9E%E5%9B%9E%E5%AE%B6/</id>
+    <published>2020-06-23T03:10:28.000Z</published>
+    <updated>2020-06-23T03:11:01.438Z</updated>
+    
+    <content type="html"><![CDATA[<p>拉拉阿里<br>搜爱上你</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;拉拉阿里&lt;br&gt;搜爱上你&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大学印象回忆录</title>
+    <link href="https://yipanyangguang.com/2020/06/23/%E5%A4%A7%E5%AD%A6%E5%8D%B0%E8%B1%A1%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    <id>https://yipanyangguang.com/2020/06/23/%E5%A4%A7%E5%AD%A6%E5%8D%B0%E8%B1%A1%E5%9B%9E%E5%BF%86%E5%BD%95/</id>
+    <published>2020-06-23T03:01:10.000Z</published>
+    <updated>2020-06-23T03:03:26.139Z</updated>
+    
+    <content type="html"><![CDATA[<p>大连,大学印象的出生地</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;大连,大学印象的出生地&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="https://yipanyangguang.com/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://yipanyangguang.com/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-06-11T13:53:24.000Z</published>
+    <updated>2020-06-11T13:59:13.463Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h5><blockquote><p>本文将讲解在腾讯云购买的CentOS系统服务器如何安装nodejs服务<br>并且涉及到连接工具的使用</p></blockquote><h5 id="购买服务器"><a href="#购买服务器" class="headerlink" title="购买服务器"></a>购买服务器</h5><blockquote><p>这里我选择腾讯云的服务器,如果以学生身份购买最低配置服务器每月仅需10元<br><a href="https://cloud.tencent.com/act/campus" target="_blank" rel="noopener">云+校园-腾讯云地址</a></p></blockquote><h5 id="购买后"><a href="#购买后" class="headerlink" title="购买后"></a>购买后</h5><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-21-32-1548163970117-99562289.png" alt="image"></p><blockquote><p>我这里选择的是 CentOS 7.2 64位<br>购买后等待初始化,然后重置一下密码,就可以使用工具连接啦</p></blockquote><h5 id="如何连接linux服务器-方法一"><a href="#如何连接linux服务器-方法一" class="headerlink" title="如何连接linux服务器-方法一"></a>如何连接linux服务器-方法一</h5><blockquote><p>mac和linux可以使用自带的终端连接，这里以linux举例</p></blockquote><ol><li>打开终端</li><li>输入 （这里xxx指的是服务器的公网ip地址，root指的是账户名称，如果有其他账户这里可以改为其他账户的名称，22是端口地址，一般都是使用22端口来登录的）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -q -l root -p 22 139.199.xxx.xxx</span><br></pre></td></tr></table></figure></li><li>则会出现这样的提示<br><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-21-41-1548164489746-17809950.png" alt="image"></li><li>输入yes，回车</li><li>则会出现这样的提示<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@139.199.xxx.xxx&#39;s password:</span><br></pre></td></tr></table></figure></li><li>输入购买后重置的密码就可以登录了，注意输入密码的时候命令行是不会有变化的，不要以为输入无效。</li></ol><h5 id="如何连接linux服务器-方法二"><a href="#如何连接linux服务器-方法二" class="headerlink" title="如何连接linux服务器-方法二"></a>如何连接linux服务器-方法二</h5><blockquote><p>无论mac linux Windows ios 安卓 都可以使用这款软件来连接<br>软件的名字是 <strong>Termius</strong> Windows和mac可以在应用商店中搜索安装<br><a href="https://www.termius.com/" target="_blank" rel="noopener">Termius官网地址</a> 打开速度很慢…<br>连接方式很简单，输入地址 账户 密码后即可连接</p></blockquote><h5 id="下载并且安装nodejs"><a href="#下载并且安装nodejs" class="headerlink" title="下载并且安装nodejs"></a>下载并且安装nodejs</h5><blockquote><p>登录成功后，输入ls，会列出root（因为使用的是root账户）目录下的内容，但是这里是空，因为是全新的服务器  </p></blockquote><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-22-10-1548166207551-56801652.png" alt="image"></p><blockquote><p>试着输入（返回上级目录并且列出目录下的文件和目录）</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ..&#x2F;</span><br><span class="line">ls</span><br></pre></td></tr></table></figure><blockquote><p>会出现以下目录</p></blockquote><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-21-59-1548165579141-37847029.png" alt="image"></p><blockquote><p>一般linux习惯用用户名建立一个用户的个人文件夹，例如上面的root（在倒数第4个）就是我们登录后默认进入的文件夹</p></blockquote><blockquote><p>打开root文件夹</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd root</span><br></pre></td></tr></table></figure><blockquote><p>下载nodejs<br>先访问一下nodejs的官网<br><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">nodejs的中文官网</a><br>右键复制到linux的压缩包的下载地址  </p></blockquote><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-22-6-1548165969801-77846523.png" alt="image"></p><blockquote><p>在终端中输入  </p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https:&#x2F;&#x2F;npm.taobao.org&#x2F;mirrors&#x2F;node&#x2F;v10.15.0&#x2F;node-v10.15.0-linux-x64.tar.xz</span><br></pre></td></tr></table></figure><blockquote><p>下载，下载完毕  </p></blockquote><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-22-10-1548166207551-56801652.png" alt="image"></p><blockquote><p>再输入ls</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure><blockquote><p>则会列出刚刚的文件</p></blockquote><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-22-12-1548166372515-80763782.png" alt="image"></p><blockquote><p>解压 输入到node的时候可以按TAB键自动补齐</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xz -d node-v10.15.0-linux-x64.tar.xz</span><br><span class="line">tar -xvf node-v10.15.0-linux-x64.tar</span><br><span class="line">ls</span><br></pre></td></tr></table></figure><blockquote><p>就会发现会有如下内容</p></blockquote><p><img src="http://dxever-1251218236.image.myqcloud.com/*95*2019-1-22-22-19-1548166744040-56973156.png" alt="image"></p><blockquote><p>可以看到已经解压好了，接下来安装</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ln -s &#x2F;root&#x2F;node-v10.15.0-linux-x64&#x2F;bin&#x2F;node &#x2F;usr&#x2F;local&#x2F;bin&#x2F;node</span><br><span class="line">ln -s &#x2F;root&#x2F;node-v10.15.0-linux-x64&#x2F;bin&#x2F;npm &#x2F;usr&#x2F;local&#x2F;bin&#x2F;npm</span><br></pre></td></tr></table></figure><blockquote><p>这两句话的意思可以理解为<br>从刚刚解压出来的文件中找到node和npm的程序，并且在/usr/local/bin中创建快递方式，在这里创建了快捷方式就可以全局使用了  </p></blockquote><h5 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h5><blockquote><p>直接输入</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><blockquote><p>node -v 和 npm -v 会返回版本号<br>node 会进入node命令行 试着输入 然后回车</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1+1</span><br></pre></td></tr></table></figure><blockquote><p>crtl c 两次可以退出node命令行</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h5&gt;&lt;blockquote&gt;
+&lt;p&gt;本文将讲解在腾讯云购买的CentOS系统服务器如何安装nodejs服务&lt;br&gt;并且涉及到连接工具的使用&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://yipanyangguang.com/2020/06/10/hello-world/"/>
+    <id>https://yipanyangguang.com/2020/06/10/hello-world/</id>
+    <published>2020-06-10T13:40:25.699Z</published>
+    <updated>2020-06-10T13:40:25.699Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
